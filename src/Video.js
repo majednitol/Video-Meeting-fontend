@@ -20,7 +20,7 @@ import Modal from 'react-bootstrap/Modal'
 import 'bootstrap/dist/css/bootstrap.css'
 import "./Video.css"
 
-const server_url = process.env.NODE_ENV === 'production' ? 'https://backend-video-meeting-l3tv.onrender.com' : "http://localhost:4001"
+const server_url = process.env.NODE_ENV === 'production' ? 'https://backend-video-meeting-1-kva9.onrender.com' : "http://localhost:4001"
 
 var connections = {}
 const peerConnectionConfig = {
