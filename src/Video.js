@@ -21,7 +21,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import "./Video.css"
 
 const server_url = "https://backend-video-meeting-1-kva9.onrender.com";
-
+console.log(server_url)
 var connections = {}
 const peerConnectionConfig = {
 	'iceServers': [
