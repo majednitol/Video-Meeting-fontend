@@ -20,7 +20,7 @@ import Modal from 'react-bootstrap/Modal'
 import 'bootstrap/dist/css/bootstrap.css'
 import "./Video.css"
 
-const server_url = process.env.REACT_APP_BACKEND_URL;
+const server_url = "https://backend-video-meeting-1-kva9.onrender.com";
 
 var connections = {}
 const peerConnectionConfig = {
